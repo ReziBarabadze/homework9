@@ -86,9 +86,9 @@ header{
 /* section2 */
 .section2{
   width: calc(1180 / 1440 * 100%);
+  margin: auto;
+  /* background-color: blue; */
   margin-block: 130px;
-  display: flex;
-  flex-direction: column;
 }
 .section2H2{
   font-family: Kanit;
@@ -97,12 +97,12 @@ header{
   line-height: 45px;
   color: #000000;
   margin-bottom: 32px;
-  margin-inline: 130px;
 }
 .section2Conteiner{
   display: flex;
   column-gap: 21px;
-  margin-inline: 130px;
+  justify-content: space-between;
+  /* margin-inline: 130px; */
 }
 .section2Article{
   /* width: 380px;
@@ -128,3 +128,20 @@ header{
   margin: 16px;
 }
 /* section3 */
+.section3{
+  width: calc(1180 / 1440 * 100%); ;
+  margin: auto;
+}
+.section3H2{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  font-family: Kanit;
+  margin-bottom: 34px;
+  color: #000000;
+}
+.bigImg{
+ 
+  
+}
+
